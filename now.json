@@ -5,7 +5,7 @@
   "public": true,
   "builds": [
     { "src": "index.html", "use": "@now/static" },
-    { "src": "source.js", "use": "@now/node-server" }
+    { "src": "view-source.js", "use": "@now/node-server" }
   ],
   "routes": [
     { "src": "^/$", "methods": ["GET"], "dest": "/index.html" },
