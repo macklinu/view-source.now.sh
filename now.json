@@ -9,7 +9,7 @@
   ],
   "routes": [
     { "src": "^/$", "methods": ["GET"], "dest": "/index.html" },
-    { "src": "^/(.*)$", "methods": ["GET"], "dest": "/source.js" }
+    { "src": "^/(.*)$", "methods": ["GET"], "dest": "/view-source.js" }
   ],
   "github": {
     "enabled": true
