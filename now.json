@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "view-source",
+  "alias": "view-source",
+  "public": true,
+  "builds": [
+    { "src": "index.html", "use": "@now/static" },
+    { "src": "source.js", "use": "@now/node-server" }
+  ],
+  "routes": [
+    { "src": "^/$", "methods": ["GET"], "dest": "/index.html" },
+    { "src": "^/(.*)$", "methods": ["GET"], "dest": "/source.js" }
+  ],
+  "github": {
+    "enabled": true
+  }
+}

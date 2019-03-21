@@ -1,0 +1,25 @@
+{
+  "name": "view-source.now.sh",
+  "private": true,
+  "version": "0.0.0-not-published",
+  "license": "MIT",
+  "homepage": "https://view-source.now.sh",
+  "author": "Mackie Underdown <macklinu@gmail.com>",
+  "repository": "macklinu/view-source.now.sh",
+  "files": [
+    "index.html",
+    "view-source.js",
+    "lib/"
+  ],
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-macklinu": "^1.4.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4"
+  }
+}
